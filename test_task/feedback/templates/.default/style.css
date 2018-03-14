@@ -1,0 +1,24 @@
+div.mfeedback {}
+div.mf-name, div.mf-email, div.mf-captcha, div.mf-message {width:80%; padding-bottom:0.4em;}
+div.mf-name input, div.mf-email input {width:60%;}
+div.mf-message textarea {width: 60%;}
+span.mf-req {color:red;}
+div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+div.errors_block {color: red; margin-bottom: 30px;}
+div.error {color: red;}
+label, input {
+	margin-top: 10px;
+}
+.mf-captcha {
+	margin-top: 30px;
+}
+textarea {
+	height: auto;
+	min-height: auto;
+}
+input[type=checkbox], input[type=radio] {
+	margin-right: 20px;
+}
+h3.success {
+	color: green;
+}
